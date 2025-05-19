@@ -11,9 +11,25 @@ const UseEffectHook = () => {
   // })
 
   // only for first time 
+  // useEffect(() => {
+  //   console.log("Component mounted or updated");
+  // },[])
+
+  // with dependency 
   useEffect(() => {
     console.log("Component mounted or updated");
-  },[])
+  },[date])
+
+  // unmount the component
+  // useEffect(() => {
+  //   console.log("Component mounted or updated");
+  //   const interval = setInterval(showDate, 1000);
+
+  //   return () => {
+  //     console.log("Clean up of interval");
+  //     clearInterval(interval);
+  //   }
+  // },[date])
   const showDate = () => {
     setDate(new Date().toString());
   }
@@ -25,6 +41,7 @@ const UseEffectHook = () => {
       <button onClick={showDate}>Show Date</button>
       <div>{message}</div>
       <button onClick={() => setMessage("Changed function component")}>Change Message</button>
+      
     </>
   )
 }
