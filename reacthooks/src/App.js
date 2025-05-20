@@ -4,7 +4,7 @@ import UseStateHook from './components/useStateHook';
 import UseEffectHook from './components/useEffectHook';
 import UseRefHook from './components/useRefHook';
 import UseMemohook from './components/useMemoHook';
-import UseCallBackHook from './components/seCallBackHook';
+import UseCallBackHook from './components/useCallBackHook';
 import UseContextHook from './components/useContextHook';
 import UseReducerHook from './components/useReducerHook';
 import UseReducerHookSecond from './components/useReducerSecond';
