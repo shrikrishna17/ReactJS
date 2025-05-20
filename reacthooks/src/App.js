@@ -8,6 +8,7 @@ import UseCallBackHook from './components/useCallBackHook';
 import UseContextHook from './components/useContextHook';
 import UseReducerHook from './components/useReducerHook';
 import UseReducerHookSecond from './components/useReducerSecond';
+import UseCustomHook from './components/useCustomhooks';
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <UseCallBackHook></UseCallBackHook> */}
       {/* <UseContextHook></UseContextHook> */}
       {/* <UseReducerHook></UseReducerHook> */}
-      <UseReducerHookSecond></UseReducerHookSecond>
+      {/* <UseReducerHookSecond></UseReducerHookSecond> */}
+      <UseCustomHook></UseCustomHook>
       </div>
     </div>
   );

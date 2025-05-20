@@ -1,7 +1,7 @@
 import { useState } from "react";
-import ContextClass from "../helpercomponents/contextclass";
-import ContextFunction from "../helpercomponents/contextfunction";
-import { CounterContext } from "../helpercomponents/counterContext";
+import ContextClass from "../contextFolder/contextclass";
+import ContextFunction from "../contextFolder/contextfunction";
+import { CounterContext } from "../contextFolder/counterContext";
 
 const UseContextHook = () => {
 
