@@ -4,6 +4,8 @@ import UseStateHook from './components/useStateHook';
 import UseEffectHook from './components/useEffectHook';
 import UseRefHook from './components/useRefHook';
 import UseMemohook from './components/useMemoHook';
+import UseCallBackHook from './components/UseCallBackHook';
+import UseContextHook from './components/UseContextHook';
 
 function App() {
   return (
@@ -15,7 +17,9 @@ function App() {
       {/* <UseStateHook></UseStateHook> */}
       {/* <UseEffectHook></UseEffectHook> */}
       {/* <UseRefHook></UseRefHook> */}
-      <UseMemohook></UseMemohook>
+      {/* <UseMemohook></UseMemohook> */}
+      {/* <UseCallBackHook></UseCallBackHook> */}
+      <UseContextHook></UseContextHook>
       </div>
     </div>
   );
