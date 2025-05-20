@@ -4,8 +4,10 @@ import UseStateHook from './components/useStateHook';
 import UseEffectHook from './components/useEffectHook';
 import UseRefHook from './components/useRefHook';
 import UseMemohook from './components/useMemoHook';
-import UseCallBackHook from './components/UseCallBackHook';
-import UseContextHook from './components/UseContextHook';
+import UseCallBackHook from './components/seCallBackHook';
+import UseContextHook from './components/useContextHook';
+import UseReducerHook from './components/useReducerHook';
+import UseReducerHookSecond from './components/useReducerSecond';
 
 function App() {
   return (
@@ -19,7 +21,9 @@ function App() {
       {/* <UseRefHook></UseRefHook> */}
       {/* <UseMemohook></UseMemohook> */}
       {/* <UseCallBackHook></UseCallBackHook> */}
-      <UseContextHook></UseContextHook>
+      {/* <UseContextHook></UseContextHook> */}
+      {/* <UseReducerHook></UseReducerHook> */}
+      <UseReducerHookSecond></UseReducerHookSecond>
       </div>
     </div>
   );
